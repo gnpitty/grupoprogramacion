@@ -32,6 +32,8 @@ public class Prueba {
 
         }
 
+
+        // Ejemplo de Lista
         List lista1 = new ArrayList();
         lista1.add("L");
         lista1.add("R");
@@ -41,7 +43,7 @@ public class Prueba {
         System.out.println(lista1);
         System.out.println(lista1.get(2));
 
-
+// Ejemplo de Mapa
         Map<String,String> mapa1 = new <String,String> HashMap();
         mapa1.put("nombre", "Juan");
         mapa1.put("apellido", "Martinez");
@@ -53,6 +55,7 @@ public class Prueba {
             System.out.println(key+":"+mapa1.get(key));
         }
 
+        // Ejemplo de Set
         Set<String> tamanos = new LinkedHashSet(5);
         tamanos.add("L");
         tamanos.add("R");
