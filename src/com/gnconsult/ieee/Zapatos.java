@@ -5,19 +5,19 @@ import java.util.Scanner;
 import java.util.*;
 
 public class Zapatos {
-
-    public static void main(String [] args){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Printing the file passed in:");
-        String  sn = sc.nextLine();
-        int n = Integer.parseInt(sn);
+// Shoe Pairs
+        public static void main(String [] args){
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Lista de Zapatos");
+            String  sn = sc.nextLine();
+            int n = Integer.parseInt(sn);
 
         System.out.println(" n:"+n);
         Map <String,Integer>map1 = new HashMap<String,Integer>();
         Map <String,Integer>tkeys = new HashMap<String,Integer>();
         while(n > 0 && sc.hasNextLine()    ){
             String s1 =sc.nextLine();
-            System.err.println("S1:" + s1+" N:"+n);
+           // System.err.println("S1:" + s1+" N:"+n);
 
             if (! s1.trim().equals("")) {
                 String tamano = s1.substring(0, 1);
@@ -39,6 +39,7 @@ public class Zapatos {
         System.out.println(map1);
 
       for (String tamano : tkeys.keySet()){
+          System.out.println(tamano);
           if (map1.containsKey(tamano+":L") && map1.containsKey(tamano+":R"))
             System.out.println(tamano+"==>Min "+Math.min(map1.get(tamano+":L"),map1.get(tamano+":R"))) ;
         }
