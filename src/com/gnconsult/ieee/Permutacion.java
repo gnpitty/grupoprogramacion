@@ -28,6 +28,7 @@ public class Permutacion {
         }
         lista.remove(0);
         */
+
         lista2.addAll(lista);
         Collections.sort(lista2);
         System.out.println("lista:"+lista);

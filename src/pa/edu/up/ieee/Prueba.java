@@ -9,30 +9,36 @@ import java.util.*;
 public class Prueba {
 
     public static void main(String[] args) {
-        int n = 6;
-        long nn = 10102929;
+        demo1();
+        demo2();
 
-        double d1 = 1.22;
-        float f1 = 1.291891829f;
+    }
+        public static void demo1( ) {
+            int n = 6;
+            long nn = 10102929;
 
-        boolean b1 = true;
+            double d1 = 1.22;
+            float f1 = 1.291891829f;
 
-        char a1 = 'A';
+            boolean b1 = true;
 
-        int[] nums = {10, 22, 33, 54, 95};
-        int[] nums2 = new int[100];
+            char a1 = 'A';
 
-        String nombre = "juan Perez";
-        if (nombre.equals("juan Perez")) {
-            System.out.println("Iguales");
+            int[] nums = {10, 22, 33, 54, 95};
+            int[] nums2 = new int[100];
+
+            String nombre = "juan Perez";
+            if (nombre.equals("juan Perez")) {
+                System.out.println("Iguales");
+            }
+            System.out.println("Hola Mundo!! " + nums + " " + new Date());
+            for (int i = 0; i < nums.length; i++) {
+                System.out.println(">> " + i + ":" + nums[i]);
+
+            }
+
         }
-        System.out.println("Hola Mundo!! " + nums + " " + new Date());
-        for (int i = 0; i < nums.length; i++) {
-            System.out.println(">> " + i + ":" + nums[i]);
-
-        }
-
-
+    public static void demo2( ) {
         // Ejemplo de Lista
         List lista1 = new ArrayList();
         lista1.add("L");
