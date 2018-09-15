@@ -8,8 +8,7 @@ import java.util.Set;
 
 
 public class Zapatos2 {
-  // Grupo de Programacion 2018
-    
+
     public static void main(String [] args) {
         Scanner sc = new Scanner(System.in);
        // System.out.println("Input test:");
@@ -23,7 +22,7 @@ public class Zapatos2 {
            //5 System.out.printf("tamano %d   lado: %s \n", tamano, lado);
             String idx = tamano +":"+lado;
 
-
+            tamanos.add(tamano);
             if (map1.containsKey(idx)){
                 int valor = map1.get(idx) +1;
                 map1.put(idx, valor);
