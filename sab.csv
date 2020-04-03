@@ -1,4 +1,4 @@
-id,nombre,dias_entrega,es_tecnologico,icono,status
+id,name,dias_entrega,es_tecnologico,icono,status
 '1','email','5','0','fa-envelope fa-lg','Activo'
 '2','credenciales CRM','5','0','fa-address-card fa-lg','Activo'
 '3','credenciales CORE','5','0','fa-address-card fa-lg','Activo'
