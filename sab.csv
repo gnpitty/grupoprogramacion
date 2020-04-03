@@ -24,4 +24,4 @@ id,name,dias_entrega,es_tecnologico,icono,status
 '23','Computadora','5','0','fa-desktop fa-lg','Inactivo'
 '24','Maletin con herramientas de Red','10','0','fa-check-circle fa-lg','Activo'
 '25','Pasaje de Avion','6','0','fa-plane fa-lg','Inactivo'
-'26',"'TV 42\""'",'0','0','fa-check-circle fa-lg','Activo'
+'26','TV 42"','0','0','fa-check-circle fa-lg','Activo'
