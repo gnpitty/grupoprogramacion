@@ -1,4 +1,4 @@
-id,descripcion,name,dias_entrega,es_tecnologico,icono,status
+id,name,caption,dias_entrega,es_tecnologico,icono,status
 1,email,email,5,0,fa-envelope fa-lg,Activo
 2,credenciales CRM,CRM-cred,5,0,fa-address-card fa-lg,Activo
 3,credenciales CORE,CORE-cred,5,0,fa-address-card fa-lg,Activo
