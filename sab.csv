@@ -1,27 +1,27 @@
-id,name,dias_entrega,es_tecnologico,icono,status
- "1","email","5","0","fa-envelope fa-lg","Activo"
-"2","credenciales CRM","5","0","fa-address-card fa-lg","Activo"
-"3","credenciales CORE","5","0","fa-address-card fa-lg","Activo"
-"4","numero telefono interno","5","0","fa-check-circle fa-lg","Activo"
-"5","codigo de acceso Telefono","5","0","fa-key fa-lg","Activo"
-"6","codigo de acceso Copiadora","5","0","fa-key fa-lg","Activo"
-"7","Computador Personal","5","1","fa-desktop fa-lg","Activo"
-"8","Notebook","5","1","fa-laptop fa-lg","Activo"
-"9","Automovil","5","0","fa-car fa-lg","Activo"
-"10","telefono celular","5","0","fa-phone fa-lg","Activo"
-"11","Tarjeta de Ingreso ","5","0","fa-id-badge fa-lg","Activo"
-"12","Teléfono","5","0","fa-phone fa-lg","Activo"
-"13","impresora","5","1","fa-print fa-lg","Activo"
-"14","Mobiliario","5","0","fa-check-circle fa-lg","Activo"
-"15","Token","5","0","fa-check-circle fa-lg","Activo"
-"16","Tarjeta de descuento","5","0","fa-check-circle fa-lg","Activo"
-"17","Tarjeta de crédito ","5","0","fa-credit-card fa-lg","Activo"
-"18","Club de Golf","5","0","fa-golf-ball fa-lg","Activo"
-"19","Seguro de vida ","5","0","fa-heartbeat fa-lg","Activo"
-"20","Seguro Medico","5","0","fa-medkit fa-lg fa-lg","Activo"
-"21","Seguro Dental","5","0","fa-check-circle fa-lg","Activo"
-"22","Examen Optica/Lentes","26","0","fa-glasses fa-lg","Activo"
-"23","Computadora","5","0","fa-desktop fa-lg","Inactivo"
-"24","Maletin con herramientas de Red","10","0","fa-check-circle fa-lg","Activo"
-"25","Pasaje de Avion","6","0","fa-plane fa-lg","Inactivo"
-"26","TV 42 ","0","0","fa-check-circle fa-lg","Activo"
+id,descripcion,name,dias_entrega,es_tecnologico,icono,status
+1,email,email,5,0,fa-envelope fa-lg,Activo
+2,credenciales CRM,CRM-cred,5,0,fa-address-card fa-lg,Activo
+3,credenciales CORE,CORE-cred,5,0,fa-address-card fa-lg,Activo
+4,numero telefono interno,interno-tel,5,0,fa-check-circle fa-lg,Activo
+5,codigo de acceso Telefono,cod-telefono,5,0,fa-key fa-lg,Activo
+6,codigo de acceso Copiadora,doc-impresora,5,0,fa-key fa-lg,Activo
+7,Computador Personal,PC,5,1,fa-desktop fa-lg,Activo
+8,Notebook,Notebook,5,1,fa-laptop fa-lg,Activo
+9,Automovil,Auto,5,0,fa-car fa-lg,Activo
+10,telefono celular,celular,5,0,fa-phone fa-lg,Activo
+11,Tarjeta de Ingreso ,Tarjeta-ingreso,5,0,fa-id-badge fa-lg,Activo
+12,Teléfono,telefono,5,0,fa-phone fa-lg,Activo
+13,impresora,impresora,5,1,fa-print fa-lg,Activo
+14,Mobiliario,mobiliario,5,0,fa-check-circle fa-lg,Activo
+15,Token,token,5,0,fa-check-circle fa-lg,Activo
+16,Tarjeta de descuento,tarjeta-descuento,5,0,fa-check-circle fa-lg,Activo
+17,Tarjeta de crédito ,tarjeta-credito,5,0,fa-credit-card fa-lg,Activo
+18,Club de Golf,golf,5,0,fa-golf-ball fa-lg,Activo
+19,Seguro de vida ,seguro-vida,5,0,fa-heartbeat fa-lg,Activo
+20,Seguro Medico,seguro-auto,5,0,fa-medkit fa-lg fa-lg,Activo
+21,Seguro Dental,seguro-dental,5,0,fa-check-circle fa-lg,Activo
+22,Examen Optica/Lentes,optica,26,0,fa-glasses fa-lg,Activo
+23,Computadora,computadora,5,0,fa-desktop fa-lg,Inactivo
+24,Maletin con herramientas de Red,tool-kit,10,0,fa-check-circle fa-lg,Activo
+25,Pasaje de Avion,avion,6,0,fa-plane fa-lg,Inactivo
+26,TV 42 ,TV,0,0,fa-check-circle fa-lg,Activo
